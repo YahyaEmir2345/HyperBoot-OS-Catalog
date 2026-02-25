@@ -1,1 +1,29 @@
-[]
+{
+  "catalogVersion": "1.0",
+  "systems": [
+    {
+      "osName": "Ubuntu",
+      "osVersion": "24.04",
+      "osArchitecture": "x64",
+      "officialSource": "https://ubuntu.com/download",
+      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
+      "sha256Hash": "3a2f1e5b9c1d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0"
+    },
+    {
+      "osName": "Windows 10",
+      "osVersion": "22H2",
+      "osArchitecture": "x64",
+      "officialSource": "https://www.microsoft.com/en-us/software-download/windows10ISO",
+      "downloadUrl": "https://software-download.microsoft.com/db/Win10_22H2_English_x64.iso",
+      "sha256Hash": "0f1e2d3c4b5a69788796a5b4c3d2e1f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+    },
+    {
+      "osName": "Kali Linux",
+      "osVersion": "2025.1",
+      "osArchitecture": "x64",
+      "officialSource": "https://www.kali.org/get-kali/",
+      "downloadUrl": "https://cdimage.kali.org/kali-2025.1/kali-linux-2025.1-amd64.iso",
+      "sha256Hash": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+    }
+  ]
+}
