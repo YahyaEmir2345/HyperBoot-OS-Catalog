@@ -1,12 +1,12 @@
 {
-  "catalogVersion": "1.0.1.1",
+  "catalogVersion": "1.0.1.2",
   "systems": [
     {
       "osName": "Ubuntu",
       "osVersion": "24.04",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download",
-      "downloadUrl": "https://ftp.ulak.net.tr/ubuntu-releases/24.04.4/ubuntu-24.04.3-desktop-amd64.iso",
+      "downloadUrl": "https://ftp.linux.org.tr/ubuntu-releases/24.04/ubuntu-24.04.1-desktop-amd64.iso",
       "sha256Hash": "3a2f1e5b9c1d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0"
     },
     {
