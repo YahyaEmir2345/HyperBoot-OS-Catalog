@@ -1,12 +1,12 @@
 {
-  "catalogVersion": "1.0",
+  "catalogVersion": "1.0.1",
   "systems": [
     {
       "osName": "Ubuntu",
       "osVersion": "24.04",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download",
-      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://ubuntu.com/download/desktop/thank-you?version=24.04.4&architecture=amd64&lts=true",
       "sha256Hash": "3a2f1e5b9c1d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0"
     },
     {
