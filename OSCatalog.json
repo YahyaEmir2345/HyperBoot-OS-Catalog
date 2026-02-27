@@ -7,7 +7,7 @@
       "osVersion": "24.04.4 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/desktop",
-      "downloadUrl": "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-desktop-amd64.iso",
+      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -15,7 +15,7 @@
       "osVersion": "22.04.4 LTS",
       "osArchitecture": "x86",
       "officialSource": "https://ubuntu.com/download/alternative-downloads",
-      "downloadUrl": "https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-desktop-i386.iso",
+      "downloadUrl": "https://old-releases.ubuntu.com/releases/22.04/", 
       "sha256Hash": ""
     },
     {
@@ -23,7 +23,7 @@
       "osVersion": "24.04.4 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/server",
-      "downloadUrl": "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-live-server-amd64.iso",
+      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-live-server-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -31,7 +31,7 @@
       "osVersion": "22.04.4 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/server",
-      "downloadUrl": "https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-live-server-amd64.iso",
+      "downloadUrl": "https://releases.ubuntu.com/22.04/ubuntu-22.04.4-live-server-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -79,7 +79,7 @@
       "osVersion": "43",
       "osArchitecture": "x64",
       "officialSource": "https://getfedora.org/",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-43-1.6.iso",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -95,7 +95,7 @@
       "osVersion": "43",
       "osArchitecture": "x64",
       "officialSource": "https://getfedora.org/iot/",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/IoT/x86_64/iso/Fedora-IoT-x86_64-43-1.6.iso",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/IoT/x86_64/iso/",
       "sha256Hash": ""
     },
     {
@@ -175,7 +175,7 @@
       "osVersion": "2026.02.01",
       "osArchitecture": "x64",
       "officialSource": "https://archlinux.org/download/",
-      "downloadUrl": "https://mirror.rackspace.com/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
+      "downloadUrl": "https://mirror.fsmg.org.nz/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -183,7 +183,7 @@
       "osVersion": "2026.02.01",
       "osArchitecture": "x64",
       "officialSource": "https://archlinux.org/download/",
-      "downloadUrl": "https://mirrors.kernel.org/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
+      "downloadUrl": "https://mirror.rackspace.com/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -191,7 +191,7 @@
       "osVersion": "24.2.1",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-250125-linux69.iso",
+      "downloadUrl": "https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso",
       "sha256Hash": ""
     },
     {
@@ -199,7 +199,7 @@
       "osVersion": "24.2.1",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-250125-linux69.iso",
+      "downloadUrl": "https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso",
       "sha256Hash": ""
     },
     {
@@ -207,7 +207,7 @@
       "osVersion": "24.2.1",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-250125-linux69.iso",
+      "downloadUrl": "https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso",
       "sha256Hash": ""
     },
     {
