@@ -1,29 +1,126 @@
 {
-  "catalogVersion": "1.0.0",
+  "catalogVersion": "1.1",
+  "lastUpdated": "2026-02-27",
   "systems": [
     {
-      "osName": "Ubuntu",
-      "osVersion": "24.04",
+      "osName": "Ubuntu Desktop",
+      "osVersion": "24.04.4 LTS",
       "osArchitecture": "x64",
-      "officialSource": "https://ubuntu.com/download",
-      "downloadUrl": "https://old-releases.ubuntu.com/releases/24.04/ubuntu-24.04-desktop-amd64.iso",
-      "sha256Hash": "3a2f1e5b9c1d4f5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f9a0"
+      "officialSource": "https://ubuntu.com/download/desktop",
+      "downloadUrl": "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-desktop-amd64.iso",
+      "sha256Hash": ""
     },
     {
-      "osName": "Windows 10",
-      "osVersion": "22H2",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.microsoft.com/en-us/software-download/windows10ISO",
-      "downloadUrl": "https://software-download.microsoft.com/db/Win10_22H2_English_x64.iso",
-      "sha256Hash": "0f1e2d3c4b5a69788796a5b4c3d2e1f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6"
+      "osName": "Ubuntu Desktop",
+      "osVersion": "22.04.4 LTS",
+      "osArchitecture": "x86",
+      "officialSource": "https://ubuntu.com/download/alternative-downloads",
+      "downloadUrl": "https://releases.ubuntu.com/22.04.4/ubuntu-22.04.4-desktop-i386.iso",
+      "sha256Hash": ""
     },
     {
-      "osName": "Kali Linux",
-      "osVersion": "2025.1",
+      "osName": "Ubuntu Server",
+      "osVersion": "24.04.4 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://ubuntu.com/download/server",
+      "downloadUrl": "https://releases.ubuntu.com/24.04.4/ubuntu-24.04.4-live-server-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Fedora Workstation",
+      "osVersion": "43",
+      "osArchitecture": "x64",
+      "officialSource": "https://getfedora.org/",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-x86_64-43-1.6.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Fedora Server",
+      "osVersion": "43",
+      "osArchitecture": "x64",
+      "officialSource": "https://getfedora.org/server",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Server/x86_64/iso/Fedora-Server-dvd-x86_64-43-1.6.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Debian DVD",
+      "osVersion": "12.9.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://www.debian.org/distrib/",
+      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.9.0-amd64-DVD-1.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Debian DVD",
+      "osVersion": "12.9.0",
+      "osArchitecture": "x86",
+      "officialSource": "https://www.debian.org/distrib/",
+      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/i386/iso-dvd/debian-12.9.0-i386-DVD-1.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Linux Mint Cinnamon",
+      "osVersion": "22.3",
+      "osArchitecture": "x64",
+      "officialSource": "https://linuxmint.com/download.php",
+      "downloadUrl": "https://mirrors.dotsrc.org/linuxmint-cd/stable/22.3/linuxmint-22.3-cinnamon-64bit.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Arch Linux",
+      "osVersion": "2026.02.01",
+      "osArchitecture": "x64",
+      "officialSource": "https://archlinux.org/download/",
+      "downloadUrl": "https://mirror.rackspace.com/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Zorin OS Core",
+      "osVersion": "17.2",
+      "osArchitecture": "x64",
+      "officialSource": "https://zorin.com/os/download",
+      "downloadUrl": "https://downloads.zorin.com/releases/17.2/Zorin-OS-17.2-Core-64-bit.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Pop!_OS",
+      "osVersion": "24.04 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://pop.system76.com/",
+      "downloadUrl": "https://iso.pop-os.org/24.04/amd64/system76/pop-os_24.04_amd64_5.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Kali Linux Installer",
+      "osVersion": "2026.1",
       "osArchitecture": "x64",
       "officialSource": "https://www.kali.org/get-kali/",
-      "downloadUrl": "https://cdimage.kali.org/kali-2025.1/kali-linux-2025.1-amd64.iso",
-      "sha256Hash": "abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890"
+      "downloadUrl": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Pardus 25 XFCE",
+      "osVersion": "25.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
+      "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Pardus 25 GNOME",
+      "osVersion": "25.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
+      "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-GNOME-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Pardus 25 Server",
+      "osVersion": "25.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
+      "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-SERVER-amd64.iso",
+      "sha256Hash": ""
     }
   ]
 }
