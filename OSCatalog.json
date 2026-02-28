@@ -7,7 +7,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/desktop",
-      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://releases.ubuntu.com/noble/ubuntu-24.04.4-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -15,7 +15,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/server",
-      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso",
+      "downloadUrl": "https://releases.ubuntu.com/noble/ubuntu-24.04.4-live-server-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -23,7 +23,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://kubuntu.org/getkubuntu/",
-      "downloadUrl": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/kubuntu/releases/25.10/release/kubuntu-25.10-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -31,7 +31,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://xubuntu.org/download/",
-      "downloadUrl": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/25.10/release/xubuntu-25.10-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -39,7 +39,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://lubuntu.me/download/",
-      "downloadUrl": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/lubuntu/releases/questing/release/lubuntu-25.10-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -47,7 +47,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntubudgie.org/downloads",
-      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/25.10/release/ubuntu-budgie-25.10-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -55,7 +55,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu-mate.org/download/",
-      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-mate/releases/25.10/release/ubuntu-mate-25.10-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -63,7 +63,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntustudio.org/download/",
-      "downloadUrl": "https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntu-studio-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntustudio/releases/noble/release/ubuntustudio-24.04.4-dvd-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -71,7 +71,7 @@
       "osVersion": "13.3 (Stable)",
       "osArchitecture": "x64",
       "officialSource": "https://www.debian.org/distrib/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.3.0-amd64-DVD-1.iso",
+      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.3.0-amd64-netinst.iso",
       "sha256Hash": ""
     },
     {
@@ -87,7 +87,7 @@
       "osVersion": "43",
       "osArchitecture": "x64",
       "officialSource": "https://getfedora.org/workstation/",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-43-1.6.iso",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/KDE/x86_64/iso/Fedora-KDE-Desktop-Live-43-1.6.x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -95,7 +95,7 @@
       "osVersion": "43",
       "osArchitecture": "x64",
       "officialSource": "https://fedoraproject.org/spins/",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-43-1.6.iso",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Xfce-Live-43-1.6.x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -103,7 +103,7 @@
       "osVersion": "2026.02.01",
       "osArchitecture": "x64",
       "officialSource": "https://archlinux.org/download/",
-      "downloadUrl": "https://mirror.pkgbuild.com/iso/archlinux-2026.02.01-x86_64.iso",
+      "downloadUrl": "https://fastly.mirror.pkgbuild.com/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
       "sha256Hash": ""
     },
     {
@@ -111,7 +111,7 @@
       "osVersion": "25.0.0",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/",
-      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/kde/25.0.0/manjaro-kde-25.0.0-250414-linux612.iso/download",
+      "downloadUrl": "https://download.manjaro.org/kde/26.0.2/manjaro-kde-26.0.2-260206-linux618.iso",
       "sha256Hash": ""
     },
     {
@@ -119,7 +119,7 @@
       "osVersion": "25.0.0",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/",
-      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/gnome/25.0.0/manjaro-gnome-25.0.0-250414-linux612.iso/download",
+      "downloadUrl": "https://download.manjaro.org/gnome/26.0.2/manjaro-gnome-26.0.2-260206-linux618.iso",
       "sha256Hash": ""
     },
     {
@@ -127,7 +127,7 @@
       "osVersion": "25.0.0",
       "osArchitecture": "x64",
       "officialSource": "https://manjaro.org/",
-      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/xfce/25.0.0/manjaro-xfce-25.0.0-250414-linux612.iso/download",
+      "downloadUrl": "https://download.manjaro.org/xfce/26.0.2/manjaro-xfce-26.0.2-260206-linux618.iso",
       "sha256Hash": ""
     },
     {
@@ -143,15 +143,39 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://pop.system76.com/",
-      "downloadUrl": "https://iso.pop-os.org/24.04/amd64/system76/pop-os_24.04_amd64_5.iso",
+      "downloadUrl": "https://iso.pop-os.org/24.04/amd64/generic/23/pop-os_24.04_amd64_generic_23.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Pop!_OS with NVIDIA",
+      "osVersion": "24.04 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://pop.system76.com/",
+      "downloadUrl": "https://iso.pop-os.org/24.04/amd64/nvidia/23/pop-os_24.04_amd64_nvidia_23.iso",
       "sha256Hash": ""
     },
     {
       "osName": "MX Linux XFCE",
-      "osVersion": "23.5",
+      "osVersion": "25.1",
       "osArchitecture": "x64",
       "officialSource": "https://mxlinux.org/download-links/",
-      "downloadUrl": "https://sourceforge.net/projects/mx-linux/files/latest/download",
+      "downloadUrl": "https://rsync-mxlinux.org/MX/Final/Xfce/MX-25.1_Xfce_x64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "MX Linux KDE",
+      "osVersion": "25.1",
+      "osArchitecture": "x64",
+      "officialSource": "https://mxlinux.org/download-links/",
+      "downloadUrl": "https://rsync-mxlinux.org/MX/Final/KDE/MX-25.1_KDE_x64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "MX Linux Fluxbox",
+      "osVersion": "25.1",
+      "osArchitecture": "x64",
+      "officialSource": "https://mxlinux.org/download-links/",
+      "downloadUrl": "https://rsync-mxlinux.org/MX/Final/Fluxbox/MX-25.1_fluxbox_x64.iso",
       "sha256Hash": ""
     },
     {
