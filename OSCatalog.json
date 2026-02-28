@@ -1,53 +1,21 @@
 {
-  "catalogVersion": "1.0",
-  "lastUpdated": "2026-02-27",
+  "catalogVersion": "1.0.1",
+  "lastUpdated": "2026-02-28",
   "systems": [
     {
       "osName": "Ubuntu Desktop",
-      "osVersion": "24.04.4 LTS",
+      "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://ubuntu.com/download/desktop",
-      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-desktop-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Ubuntu Desktop",
-      "osVersion": "22.04.4 LTS",
-      "osArchitecture": "x86",
-      "officialSource": "https://ubuntu.com/download/alternative-downloads",
-      "downloadUrl": "https://old-releases.ubuntu.com/releases/22.04/", 
+      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
       "osName": "Ubuntu Server",
-      "osVersion": "24.04.4 LTS",
-      "osArchitecture": "x64",
-      "officialSource": "https://ubuntu.com/download/server",
-      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-live-server-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Ubuntu Server",
-      "osVersion": "22.04.4 LTS",
-      "osArchitecture": "x64",
-      "officialSource": "https://ubuntu.com/download/server",
-      "downloadUrl": "https://releases.ubuntu.com/22.04/ubuntu-22.04.4-live-server-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Ubuntu Budgie",
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
-      "officialSource": "https://ubuntubudgie.org/downloads",
-      "downloadUrl": "https://cdimages.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04-desktop-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Ubuntu MATE",
-      "osVersion": "24.04 LTS",
-      "osArchitecture": "x64",
-      "officialSource": "https://ubuntu-mate.org/download/",
-      "downloadUrl": "https://cdimages.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04-desktop-amd64.iso",
+      "officialSource": "https://ubuntu.com/download/server",
+      "downloadUrl": "https://releases.ubuntu.com/24.04/ubuntu-24.04-live-server-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -55,7 +23,7 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://kubuntu.org/getkubuntu/",
-      "downloadUrl": "https://cdimages.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/kubuntu/releases/24.04/release/kubuntu-24.04-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
@@ -63,79 +31,103 @@
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
       "officialSource": "https://xubuntu.org/download/",
-      "downloadUrl": "https://cdimages.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04-desktop-amd64.iso",
+      "downloadUrl": "https://cdimage.ubuntu.com/xubuntu/releases/24.04/release/xubuntu-24.04-desktop-amd64.iso",
       "sha256Hash": ""
     },
     {
       "osName": "Lubuntu",
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
-      "officialSource": "https://lubuntu.me/downloads/",
-      "downloadUrl": "https://cdimages.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04-desktop-amd64.iso",
+      "officialSource": "https://lubuntu.me/download/",
+      "downloadUrl": "https://cdimage.ubuntu.com/lubuntu/releases/24.04/release/lubuntu-24.04-desktop-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Ubuntu Budgie",
+      "osVersion": "24.04 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://ubuntubudgie.org/downloads",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-budgie/releases/24.04/release/ubuntu-budgie-24.04-desktop-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Ubuntu MATE",
+      "osVersion": "24.04 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://ubuntu-mate.org/download/",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntu-mate/releases/24.04/release/ubuntu-mate-24.04-desktop-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Ubuntu Studio",
+      "osVersion": "24.04 LTS",
+      "osArchitecture": "x64",
+      "officialSource": "https://ubuntustudio.org/download/",
+      "downloadUrl": "https://cdimage.ubuntu.com/ubuntustudio/releases/24.04/release/ubuntu-studio-24.04-desktop-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "Debian",
+      "osVersion": "13.3 (Stable)",
+      "osArchitecture": "x64",
+      "officialSource": "https://www.debian.org/distrib/",
+      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-13.3.0-amd64-DVD-1.iso",
       "sha256Hash": ""
     },
     {
       "osName": "Fedora Workstation",
       "osVersion": "43",
       "osArchitecture": "x64",
-      "officialSource": "https://getfedora.org/",
+      "officialSource": "https://getfedora.org/workstation/",
       "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Workstation/x86_64/iso/Fedora-Workstation-Live-43-1.6.x86_64.iso",
       "sha256Hash": ""
     },
     {
-      "osName": "Fedora Server",
+      "osName": "Fedora KDE Plasma",
       "osVersion": "43",
       "osArchitecture": "x64",
-      "officialSource": "https://getfedora.org/server",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Server/x86_64/iso/Fedora-Server-dvd-x86_64-43-1.6.iso",
+      "officialSource": "https://getfedora.org/workstation/",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-KDE-Live-x86_64-43-1.6.iso",
       "sha256Hash": ""
     },
     {
-      "osName": "Fedora IoT",
+      "osName": "Fedora Xfce Spin",
       "osVersion": "43",
       "osArchitecture": "x64",
-      "officialSource": "https://getfedora.org/iot/",
-      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/IoT/x86_64/iso/",
+      "officialSource": "https://fedoraproject.org/spins/",
+      "downloadUrl": "https://download.fedoraproject.org/pub/fedora/linux/releases/43/Spins/x86_64/iso/Fedora-Xfce-Live-x86_64-43-1.6.iso",
       "sha256Hash": ""
     },
     {
-      "osName": "Fedora CoreOS",
-      "osVersion": "43",
+      "osName": "Arch Linux",
+      "osVersion": "2026.02.01",
       "osArchitecture": "x64",
-      "officialSource": "https://getfedora.org/coreos",
-      "downloadUrl": "https://builds.coreos.fedoraproject.org/prod/streams/stable/builds/43.20260227.3.0/x86_64/fedora-coreos-43.20260227.3.0-live.x86_64.iso",
+      "officialSource": "https://archlinux.org/download/",
+      "downloadUrl": "https://mirror.pkgbuild.com/iso/archlinux-2026.02.01-x86_64.iso",
       "sha256Hash": ""
     },
     {
-      "osName": "Debian DVD",
-      "osVersion": "12.9.0",
+      "osName": "Manjaro KDE Plasma",
+      "osVersion": "25.0.0",
       "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/distrib/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-dvd/debian-12.9.0-amd64-DVD-1.iso",
+      "officialSource": "https://manjaro.org/",
+      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/kde/25.0.0/manjaro-kde-25.0.0-250414-linux612.iso/download",
       "sha256Hash": ""
     },
     {
-      "osName": "Debian DVD",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x86",
-      "officialSource": "https://www.debian.org/distrib/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/i386/iso-dvd/debian-12.9.0-i386-DVD-1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Debian Netinstall",
-      "osVersion": "12.9.0",
+      "osName": "Manjaro GNOME",
+      "osVersion": "25.0.0",
       "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/distrib/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.9.0-amd64-netinst.iso",
+      "officialSource": "https://manjaro.org/",
+      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/gnome/25.0.0/manjaro-gnome-25.0.0-250414-linux612.iso/download",
       "sha256Hash": ""
     },
     {
-      "osName": "Debian Netinstall",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x86",
-      "officialSource": "https://www.debian.org/distrib/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current/i386/iso-cd/debian-12.9.0-i386-netinst.iso",
+      "osName": "Manjaro Xfce",
+      "osVersion": "25.0.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://manjaro.org/",
+      "downloadUrl": "https://sourceforge.net/projects/manjarolinux/files/xfce/25.0.0/manjaro-xfce-25.0.0-250414-linux612.iso/download",
       "sha256Hash": ""
     },
     {
@@ -147,102 +139,6 @@
       "sha256Hash": ""
     },
     {
-      "osName": "Linux Mint MATE",
-      "osVersion": "22.3",
-      "osArchitecture": "x64",
-      "officialSource": "https://linuxmint.com/download.php",
-      "downloadUrl": "https://mirrors.dotsrc.org/linuxmint-cd/stable/22.3/linuxmint-22.3-mate-64bit.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Linux Mint Xfce",
-      "osVersion": "22.3",
-      "osArchitecture": "x64",
-      "officialSource": "https://linuxmint.com/download.php",
-      "downloadUrl": "https://mirrors.dotsrc.org/linuxmint-cd/stable/22.3/linuxmint-22.3-xfce-64bit.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "LMDE (Linux Mint Debian Edition)",
-      "osVersion": "6.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://linuxmint.com/download_lmde.php",
-      "downloadUrl": "https://mirrors.dotsrc.org/linuxmint-cd/lmde/stable/lmde-6-cinnamon-64bit.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Arch Linux",
-      "osVersion": "2026.02.01",
-      "osArchitecture": "x64",
-      "officialSource": "https://archlinux.org/download/",
-      "downloadUrl": "https://mirror.fsmg.org.nz/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Arch Linux",
-      "osVersion": "2026.02.01",
-      "osArchitecture": "x64",
-      "officialSource": "https://archlinux.org/download/",
-      "downloadUrl": "https://mirror.rackspace.com/archlinux/iso/2026.02.01/archlinux-2026.02.01-x86_64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Manjaro KDE",
-      "osVersion": "24.2.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/kde/24.2.1/manjaro-kde-24.2.1-241216-linux612.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Manjaro GNOME",
-      "osVersion": "24.2.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/gnome/24.2.1/manjaro-gnome-24.2.1-241216-linux612.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Manjaro Xfce",
-      "osVersion": "24.2.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://manjaro.org/download/",
-      "downloadUrl": "https://download.manjaro.org/xfce/24.2.1/manjaro-xfce-24.2.1-241216-linux612.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "EndeavourOS",
-      "osVersion": "2025.09.22",
-      "osArchitecture": "x64",
-      "officialSource": "https://endeavouros.com/download/",
-      "downloadUrl": "https://mirror.osbeck.com/endeavouros/iso/EndeavourOS_Endeavour-2025.09.22.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Garuda Linux KDE Lite",
-      "osVersion": "250227",
-      "osArchitecture": "x64",
-      "officialSource": "https://garudalinux.org/downloads.html",
-      "downloadUrl": "https://mirror.freedif.org/Garuda/iso/garuda/kde-lite/250227/garuda-kde-lite-250227-linux-6.13.5-zen1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Zorin OS Core",
-      "osVersion": "17.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://zorin.com/os/download",
-      "downloadUrl": "https://downloads.zorin.com/releases/17.2/Zorin-OS-17.2-Core-64-bit.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Zorin OS Pro",
-      "osVersion": "17.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://zorin.com/os/pro",
-      "downloadUrl": "https://downloads.zorin.com/releases/17.2/Zorin-OS-17.2-Pro-64-bit.iso",
-      "sha256Hash": ""
-    },
-    {
       "osName": "Pop!_OS",
       "osVersion": "24.04 LTS",
       "osArchitecture": "x64",
@@ -251,395 +147,27 @@
       "sha256Hash": ""
     },
     {
-      "osName": "Pop!_OS",
-      "osVersion": "22.04 LTS",
+      "osName": "MX Linux XFCE",
+      "osVersion": "23.5",
       "osArchitecture": "x64",
-      "officialSource": "https://pop.system76.com/",
-      "downloadUrl": "https://iso.pop-os.org/22.04/amd64/system76/pop-os_22.04_amd64_26.iso",
+      "officialSource": "https://mxlinux.org/download-links/",
+      "downloadUrl": "https://sourceforge.net/projects/mx-linux/files/latest/download",
       "sha256Hash": ""
     },
     {
-      "osName": "Kali Linux Installer",
-      "osVersion": "2026.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.kali.org/get-kali/",
-      "downloadUrl": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Kali Linux Live",
-      "osVersion": "2026.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.kali.org/get-kali/",
-      "downloadUrl": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-live-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Kali Linux Installer",
-      "osVersion": "2026.1",
-      "osArchitecture": "x86",
-      "officialSource": "https://www.kali.org/get-kali/",
-      "downloadUrl": "https://cdimage.kali.org/kali-2026.1/kali-linux-2026.1-installer-i386.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Parrot Security OS",
-      "osVersion": "6.3",
-      "osArchitecture": "x64",
-      "officialSource": "https://parrotsec.org/download/",
-      "downloadUrl": "https://mirrors.mit.edu/parrot/iso/6.3/Parrot-security-6.3_amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Parrot Home OS",
-      "osVersion": "6.3",
-      "osArchitecture": "x64",
-      "officialSource": "https://parrotsec.org/download/",
-      "downloadUrl": "https://mirrors.mit.edu/parrot/iso/6.3/Parrot-home-6.3_amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Pardus 25 XFCE",
+      "osName": "Pardus XFCE",
       "osVersion": "25.0",
       "osArchitecture": "x64",
-      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
+      "officialSource": "https://pardus.org.tr/en/download/",
       "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-XFCE-amd64.iso",
       "sha256Hash": ""
     },
     {
-      "osName": "Pardus 25 GNOME",
+      "osName": "Pardus GNOME",
       "osVersion": "25.0",
       "osArchitecture": "x64",
-      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
+      "officialSource": "https://pardus.org.tr/en/download/",
       "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-GNOME-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Pardus 25 Server",
-      "osVersion": "25.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus25/",
-      "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-SERVER-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Pardus 21 XFCE",
-      "osVersion": "21.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://indir.pardus.org.tr/ISO/Pardus21/",
-      "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus21/Pardus-21.5-XFCE-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "openSUSE Leap",
-      "osVersion": "15.6",
-      "osArchitecture": "x64",
-      "officialSource": "https://get.opensuse.org/leap/",
-      "downloadUrl": "https://download.opensuse.org/distribution/leap/15.6/iso/openSUSE-Leap-15.6-DVD-x86_64-Current.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "openSUSE Tumbleweed",
-      "osVersion": "Rolling",
-      "osArchitecture": "x64",
-      "officialSource": "https://get.opensuse.org/tumbleweed/",
-      "downloadUrl": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "openSUSE MicroOS",
-      "osVersion": "Rolling",
-      "osArchitecture": "x64",
-      "officialSource": "https://get.opensuse.org/microos/",
-      "downloadUrl": "https://download.opensuse.org/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Rocky Linux",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://rockylinux.org/download",
-      "downloadUrl": "https://download.rockylinux.org/pub/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-dvd.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Rocky Linux Minimal",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://rockylinux.org/download",
-      "downloadUrl": "https://download.rockylinux.org/pub/rocky/9.5/isos/x86_64/Rocky-9.5-x86_64-minimal.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "AlmaLinux",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://almalinux.org/download/",
-      "downloadUrl": "https://repo.almalinux.org/almalinux/9.5/isos/x86_64/AlmaLinux-9.5-x86_64-dvd.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "AlmaLinux Minimal",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://almalinux.org/download/",
-      "downloadUrl": "https://repo.almalinux.org/almalinux/9.5/isos/x86_64/AlmaLinux-9.5-x86_64-minimal.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "CentOS Stream",
-      "osVersion": "9",
-      "osArchitecture": "x64",
-      "officialSource": "https://centos.org/download/",
-      "downloadUrl": "https://mirror.rackspace.com/centos-stream/9-stream/BaseOS/x86_64/iso/CentOS-Stream-9-latest-x86_64-dvd1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "CentOS Stream",
-      "osVersion": "10",
-      "osArchitecture": "x64",
-      "officialSource": "https://centos.org/download/",
-      "downloadUrl": "https://mirror.rackspace.com/centos-stream/10-stream/BaseOS/x86_64/iso/CentOS-Stream-10-latest-x86_64-dvd1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "FreeBSD",
-      "osVersion": "14.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.freebsd.org/where/",
-      "downloadUrl": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/14.2/FreeBSD-14.2-RELEASE-amd64-dvd1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "FreeBSD",
-      "osVersion": "13.4",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.freebsd.org/where/",
-      "downloadUrl": "https://download.freebsd.org/releases/amd64/amd64/ISO-IMAGES/13.4/FreeBSD-13.4-RELEASE-amd64-dvd1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "TrueNAS SCALE",
-      "osVersion": "24.10.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.truenas.com/download-truenas-scale/",
-      "downloadUrl": "https://download.truenas.com/TrueNAS-SCALE-Bluefin/24.10.2/TrueNAS-SCALE-24.10.2.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Proxmox VE",
-      "osVersion": "8.3",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.proxmox.com/downloads",
-      "downloadUrl": "https://enterprise.proxmox.com/iso/proxmox-ve_8.3-1.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Debian Live Cinnamon",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/CD/live/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.9.0-amd64-cinnamon.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Debian Live GNOME",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/CD/live/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.9.0-amd64-gnome.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Debian Live KDE",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/CD/live/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.9.0-amd64-kde.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Debian Live Xfce",
-      "osVersion": "12.9.0",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.debian.org/CD/live/",
-      "downloadUrl": "https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/debian-live-12.9.0-amd64-xfce.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Slackware",
-      "osVersion": "15.0",
-      "osArchitecture": "x64",
-      "officialSource": "http://www.slackware.com/getslack/",
-      "downloadUrl": "https://mirrors.slackware.com/slackware/slackware-iso/slackware64-15.0-iso/slackware64-15.0-install-dvd.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Void Linux xfce",
-      "osVersion": "Rolling",
-      "osArchitecture": "x64",
-      "officialSource": "https://voidlinux.org/download/",
-      "downloadUrl": "https://repo-fast.lyx.cc/void/live/20250222/void-live-x86_64-20250222-xfce.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Void Linux glibc",
-      "osVersion": "Rolling",
-      "osArchitecture": "x64",
-      "officialSource": "https://voidlinux.org/download/",
-      "downloadUrl": "https://repo-fast.lyx.cc/void/live/20250222/void-live-x86_64-20250222.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Alpine Linux Extended",
-      "osVersion": "3.21.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://alpinelinux.org/downloads/",
-      "downloadUrl": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-extended-3.21.2-x86_64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Alpine Linux Standard",
-      "osVersion": "3.21.2",
-      "osArchitecture": "x64",
-      "officialSource": "https://alpinelinux.org/downloads/",
-      "downloadUrl": "https://dl-cdn.alpinelinux.org/alpine/v3.21/releases/x86_64/alpine-standard-3.21.2-x86_64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "NixOS GNOME",
-      "osVersion": "24.11",
-      "osArchitecture": "x64",
-      "officialSource": "https://nixos.org/download/",
-      "downloadUrl": "https://channels.nixos.org/nixos-24.11/latest-nixos-gnome-x86_64-linux.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "NixOS Minimal",
-      "osVersion": "24.11",
-      "osArchitecture": "x64",
-      "officialSource": "https://nixos.org/download/",
-      "downloadUrl": "https://channels.nixos.org/nixos-24.11/latest-nixos-minimal-x86_64-linux.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Gentoo LiveGUI",
-      "osVersion": "20260215",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.gentoo.org/downloads/",
-      "downloadUrl": "https://distfiles.gentoo.org/releases/amd64/autobuilds/20260215/livegui-amd64-20260215.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Gentoo Minimal",
-      "osVersion": "20260215",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.gentoo.org/downloads/",
-      "downloadUrl": "https://distfiles.gentoo.org/releases/amd64/autobuilds/20260215/install-amd64-minimal-20260215.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Mageia",
-      "osVersion": "9",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.mageia.org/en/downloads/",
-      "downloadUrl": "https://mirrors.kernel.org/mageia/iso/9/Mageia-9-x86_64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Elementary OS",
-      "osVersion": "7.1",
-      "osArchitecture": "x64",
-      "officialSource": "https://elementary.io/",
-      "downloadUrl": "https://mirrors.dotsrc.org/elementary/stable/7.1/elementaryos-7.1-stable.20240921.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Peppermint OS",
-      "osVersion": "2025-01",
-      "osArchitecture": "x64",
-      "officialSource": "https://peppermintos.com/download/",
-      "downloadUrl": "https://peppermintos.com/release/2025-01/peppermint-2025-01-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "MX Linux Xfce",
-      "osVersion": "23.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://mxlinux.org/download-links/",
-      "downloadUrl": "https://mirror.math.princeton.edu/pub/mxlinux/iso/MX/Final/MX-23.5_x64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "MX Linux KDE",
-      "osVersion": "23.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://mxlinux.org/download-links/",
-      "downloadUrl": "https://mirror.math.princeton.edu/pub/mxlinux/iso/MX/KDE/MX-23.5_KDE_x64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Solus Budgie",
-      "osVersion": "4.6",
-      "osArchitecture": "x64",
-      "officialSource": "https://getsol.us/download/",
-      "downloadUrl": "https://mirrors.rit.edu/solus/images/4.6/Solus-4.6-Budgie.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Solus GNOME",
-      "osVersion": "4.6",
-      "osArchitecture": "x64",
-      "officialSource": "https://getsol.us/download/",
-      "downloadUrl": "https://mirrors.rit.edu/solus/images/4.6/Solus-4.6-GNOME.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Solus Plasma",
-      "osVersion": "4.6",
-      "osArchitecture": "x64",
-      "officialSource": "https://getsol.us/download/",
-      "downloadUrl": "https://mirrors.rit.edu/solus/images/4.6/Solus-4.6-Plasma.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Deepin",
-      "osVersion": "23",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.deepin.org/en/download/",
-      "downloadUrl": "https://cdimage.deepin.com/releases/23/deepin-23-amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "UOS Home",
-      "osVersion": "1070",
-      "osArchitecture": "x64",
-      "officialSource": "https://www.chinauos.com/en/download",
-      "downloadUrl": "https://cdimage.chinauos.com/releases/1070/home_1070_amd64.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Red Hat Enterprise Linux",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://developers.redhat.com/products/rhel/download",
-      "downloadUrl": "https://developers.redhat.com/content-gateway/file/rhel-9.5-x86_64-dvd.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Oracle Linux",
-      "osVersion": "9.5",
-      "osArchitecture": "x64",
-      "officialSource": "https://yum.oracle.com/oracle-linux-isos.html",
-      "downloadUrl": "https://yum.oracle.com/ISOS/OracleLinux/OL9/u5/x86_64/OracleLinux-9.5-x86_64-dvd.iso",
-      "sha256Hash": ""
-    },
-    {
-      "osName": "Amazon Linux",
-      "osVersion": "2023",
-      "osArchitecture": "x64",
-      "officialSource": "https://aws.amazon.com/amazon-linux-2/",
-      "downloadUrl": "https://cdn.amazonlinux.com/al2023/os-images/latest/kvm/al2023-kvm-2023.6.20250218.0-kernel-6.1-x86_64.xfs.gpt.iso",
       "sha256Hash": ""
     }
   ]
