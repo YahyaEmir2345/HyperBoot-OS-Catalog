@@ -1,6 +1,6 @@
 {
-  "catalogVersion": "1.1",
-  "lastUpdated": "2026-02-28",
+  "catalogVersion": "1.2",
+  "lastUpdated": "2026-03-03",
   "systems": [
     {
       "osName": "Ubuntu Desktop",
@@ -192,6 +192,22 @@
       "osArchitecture": "x64",
       "officialSource": "https://pardus.org.tr/en/download/",
       "downloadUrl": "https://indir.pardus.org.tr/ISO/Pardus25/Pardus-25.0-GNOME-amd64.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "OpenSUSE Leap",
+      "osVersion": "16.0",
+      "osArchitecture": "x64",
+      "officialSource": "https://get.opensuse.org/desktop/",
+      "downloadUrl": "https://download.opensuse.org/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso",
+      "sha256Hash": ""
+    },
+    {
+      "osName": "OpenSUSE Tumbleweed",
+      "osVersion": "March",
+      "osArchitecture": "x64",
+      "officialSource": "https://get.opensuse.org/desktop/",
+      "downloadUrl": "https://download.opensuse.org/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso",
       "sha256Hash": ""
     }
   ]
